@@ -5,9 +5,8 @@ import logger from "morgan";
 import socketController from "./socketController";
 import events from "./events";
 
-const PORT = 5000;
+const PORT = 4000;
 const app = express();
-
 app.set("view engine", "pug");
 app.set("views", join(__dirname, "views"));
 app.use(logger("dev"));
@@ -23,4 +22,4 @@ const server = app.listen(PORT, handleListening);
 
 const io = socketIO.listen(server);
 
-io.on("connection", (socket) => socketController(socket));
+io.on("connection", socket => socketController(socket, io));
