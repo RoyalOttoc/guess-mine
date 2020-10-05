@@ -1,6 +1,6 @@
 # Guess-mine
 
-Realtime Draing Game built with SocketIO, Gulp and Node
+Realtime Drawing Game built with SocketIO, Gulp and Node
 
 ## To Do:
 
@@ -8,4 +8,4 @@ Realtime Draing Game built with SocketIO, Gulp and Node
 - [x] Pug
 - [x] Static
 - [x] ESLint
-- [ ] SocketIO
+- [x] SocketIO
