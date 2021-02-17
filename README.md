@@ -1,6 +1,7 @@
 # Guess Mine
 
-Realtime Drawing Game built with SocketIO, Gulp and Node
+* Users can play real time drawing game with chatting, notification, point system
+* The web service is made with Vanilla Js, Node.js, Gulp and SocketIO.
 
 ## To Do:
 
